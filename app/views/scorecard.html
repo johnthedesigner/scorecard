@@ -1,1 +1,92 @@
 <p>This is the scorecard view.</p>
+
+<!--<div class="scorecard-grid">
+    <ul style="width:{{tableWidth*100+200}}px;">
+        <li class="scorecard-grid-header">
+            <ul>
+                <li class="scorecard-grid-row-label">{{table.title}}</li>
+                <li ng-repeat="column in table">
+                    <span class="scorecard-cell-content">{{column.title}}</span>
+                </li>
+            </ul>
+        </li>
+        <li ng-repeat="row in table.rows">
+            <ul>
+                <li class="scorecard-grid-row-label">{{row.title}}</li>
+                <li ng-repeat="column in row.columns">
+                    <span class="scorecard-cell-content">{{column.value}}</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>-->
+
+<div><!-- Table Wrapper -->
+    
+    <div class="scorecard-grid-wrapper"><!-- Table -->
+        
+        <header><!-- Table Header -->
+            
+            <ul><!-- Table Title Cell 1,1 -->
+                <li>
+                    <ul>
+                        <li>
+                            <span>{{table.title}}</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <ul><!-- Super Subset Labels -->
+                <li ng-repeat="superSubset in table.superSubsets">
+                    <span>{{superSubset.title}}</span>
+                    <ul><!-- Subsets Labels -->
+                        <li ng-repeat="subset in superSubset.subsets">
+                            <span>{{subset.title}}</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </header>
+        
+        <section><!-- Table Row Labels -->
+            
+            <ul><!-- Super Topic Labels -->
+                <li ng-repeat="superTopic in table.superTopics">
+                    <span>{{superTopic.title}}</span>
+                    <ul><!-- Topic Labels -->
+                        <li ng-repeat="topic in superTopic.topics">
+                            <span>{{topic.title}}</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </section>
+        
+        <section style="width:{{tableWidth*100}}px;"><!-- Table Body -->
+            
+            <ul>
+                <li ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
+                    <ul>
+                        <li ng-repeat="topic in superTopic.topics"><!-- Topic -->
+                            <ul>
+                                <li ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
+                                    <ul>
+                                        <li ng-repeat="subset in superSubset.subsets">
+                                            <span>{{subset.value}}</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </section>
+        
+    </div>
+    
+</div>

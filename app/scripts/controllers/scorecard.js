@@ -2,16 +2,21 @@
 
 /**
  * @ngdoc function
- * @name scorecardAppApp.controller:ScorecardCtrl
+ * @name scorecardApp.controller:ScorecardCtrl
  * @description
  * # ScorecardCtrl
- * Controller of the scorecardAppApp
+ * Controller of the scorecardApp
  */
-angular.module('scorecardAppApp')
-  .controller('ScorecardCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('scorecardApp')
+  .controller('ScorecardCtrl', ['$scope', '$http',
+  function ($scope, $http) {
+    $http.get('data/data.json').success(function(data) {
+      $scope.table = data;
+      $scope.tableWidth = data.columnNames.length;
+      $scope.awesomeThings = [
+        'HTML5 Boilerplate',
+        'AngularJS',
+        'Karma'
+      ];
+    });
+  }]);

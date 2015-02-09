@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name scorecardAppApp.controller:MainCtrl
+ * @name scorecardApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the scorecardAppApp
+ * Controller of the scorecardApp
  */
-angular.module('scorecardAppApp')
+angular.module('scorecardApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name scorecardAppApp
+ * @name scorecardApp
  * @description
- * # scorecardAppApp
+ * # scorecardApp
  *
  * Main module of the application.
  */
 angular
-  .module('scorecardAppApp', [
+  .module('scorecardApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

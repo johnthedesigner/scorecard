@@ -1,0 +1,5822 @@
+{
+  "title": "cupidatat non",
+  "superSubsets": [
+    {
+      "title": "nostrud",
+      "subsets": [
+        {
+          "title": "consectetur"
+        },
+        {
+          "title": "veniam"
+        },
+        {
+          "title": "aliquip"
+        },
+        {
+          "title": "quis"
+        },
+        {
+          "title": "id"
+        },
+        {
+          "title": "irure"
+        },
+        {
+          "title": "enim"
+        },
+        {
+          "title": "commodo"
+        },
+        {
+          "title": "ipsum"
+        },
+        {
+          "title": "voluptate"
+        }
+      ]
+    },
+    {
+      "title": "magna",
+      "subsets": [
+        {
+          "title": "incididunt"
+        },
+        {
+          "title": "cillum"
+        },
+        {
+          "title": "elit"
+        },
+        {
+          "title": "magna"
+        },
+        {
+          "title": "officia"
+        },
+        {
+          "title": "reprehenderit"
+        },
+        {
+          "title": "et"
+        },
+        {
+          "title": "excepteur"
+        },
+        {
+          "title": "aliquip"
+        },
+        {
+          "title": "reprehenderit"
+        }
+      ]
+    },
+    {
+      "title": "veniam",
+      "subsets": [
+        {
+          "title": "aliquip"
+        },
+        {
+          "title": "reprehenderit"
+        },
+        {
+          "title": "adipisicing"
+        },
+        {
+          "title": "cupidatat"
+        },
+        {
+          "title": "officia"
+        },
+        {
+          "title": "enim"
+        },
+        {
+          "title": "nulla"
+        },
+        {
+          "title": "irure"
+        },
+        {
+          "title": "cupidatat"
+        },
+        {
+          "title": "irure"
+        }
+      ]
+    },
+    {
+      "title": "elit",
+      "subsets": [
+        {
+          "title": "labore"
+        },
+        {
+          "title": "ad"
+        },
+        {
+          "title": "cupidatat"
+        },
+        {
+          "title": "exercitation"
+        },
+        {
+          "title": "aliquip"
+        },
+        {
+          "title": "do"
+        },
+        {
+          "title": "do"
+        },
+        {
+          "title": "aliqua"
+        },
+        {
+          "title": "laboris"
+        },
+        {
+          "title": "officia"
+        }
+      ]
+    }
+  ],
+  "superTopics": [
+    {
+      "title": "aliqua",
+      "topics": [
+        {
+          "title": "culpa",
+          "superSubsets": [
+            {
+              "title": "reprehenderit",
+              "subsets": [
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.58
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": 0.63
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.87
+                }
+              ]
+            },
+            {
+              "title": "commodo",
+              "subsets": [
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -0.09
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.29
+                }
+              ]
+            },
+            {
+              "title": "eu",
+              "subsets": [
+                {
+                  "value": 0.42
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.66
+                },
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": -0.22
+                }
+              ]
+            },
+            {
+              "title": "dolore",
+              "subsets": [
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": 0.91
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "in",
+          "superSubsets": [
+            {
+              "title": "in",
+              "subsets": [
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.74
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": 0.32
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": -0.69
+                }
+              ]
+            },
+            {
+              "title": "ad",
+              "subsets": [
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.2
+                }
+              ]
+            },
+            {
+              "title": "anim",
+              "subsets": [
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": 0.6
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.86
+                }
+              ]
+            },
+            {
+              "title": "proident",
+              "subsets": [
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.84
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": -0.11
+                },
+                {
+                  "value": -0.69
+                },
+                {
+                  "value": -0.95
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": 0.88
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "aliqua",
+          "superSubsets": [
+            {
+              "title": "qui",
+              "subsets": [
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": 0.55
+                },
+                {
+                  "value": 0.55
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": 0.07
+                }
+              ]
+            },
+            {
+              "title": "dolor",
+              "subsets": [
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.81
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": 0.79
+                }
+              ]
+            },
+            {
+              "title": "deserunt",
+              "subsets": [
+                {
+                  "value": 0.77
+                },
+                {
+                  "value": -0.67
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": 0.17
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": 0.67
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": -0.42
+                }
+              ]
+            },
+            {
+              "title": "est",
+              "subsets": [
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": 0.91
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "enim",
+          "superSubsets": [
+            {
+              "title": "voluptate",
+              "subsets": [
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.42
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": -0.03
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": 0.71
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.45
+                }
+              ]
+            },
+            {
+              "title": "consectetur",
+              "subsets": [
+                {
+                  "value": 0.1
+                },
+                {
+                  "value": 0.08
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.04
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": -0.7
+                }
+              ]
+            },
+            {
+              "title": "amet",
+              "subsets": [
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": 0.67
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": 0.23
+                },
+                {
+                  "value": 0.23
+                }
+              ]
+            },
+            {
+              "title": "minim",
+              "subsets": [
+                {
+                  "value": 0.92
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": 0.63
+                },
+                {
+                  "value": -0.26
+                },
+                {
+                  "value": 0.99
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "qui",
+          "superSubsets": [
+            {
+              "title": "in",
+              "subsets": [
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.16
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": -0.13
+                }
+              ]
+            },
+            {
+              "title": "laborum",
+              "subsets": [
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": -0.05
+                },
+                {
+                  "value": 0.71
+                },
+                {
+                  "value": 0.77
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.9
+                },
+                {
+                  "value": -0.5
+                }
+              ]
+            },
+            {
+              "title": "quis",
+              "subsets": [
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": -0.13
+                },
+                {
+                  "value": 0.22
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.07
+                }
+              ]
+            },
+            {
+              "title": "irure",
+              "subsets": [
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.41
+                },
+                {
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "excepteur",
+          "superSubsets": [
+            {
+              "title": "nostrud",
+              "subsets": [
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.31
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.48
+                },
+                {
+                  "value": 0.52
+                }
+              ]
+            },
+            {
+              "title": "enim",
+              "subsets": [
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.95
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.93
+                }
+              ]
+            },
+            {
+              "title": "voluptate",
+              "subsets": [
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": 0.46
+                },
+                {
+                  "value": -0.67
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.02
+                },
+                {
+                  "value": -0.15
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.53
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.95
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.68
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "mollit",
+          "superSubsets": [
+            {
+              "title": "incididunt",
+              "subsets": [
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": -0.95
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.29
+                }
+              ]
+            },
+            {
+              "title": "cupidatat",
+              "subsets": [
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": -0.07
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": -0.26
+                },
+                {
+                  "value": 0.87
+                }
+              ]
+            },
+            {
+              "title": "occaecat",
+              "subsets": [
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": -0.02
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.16
+                }
+              ]
+            },
+            {
+              "title": "ex",
+              "subsets": [
+                {
+                  "value": -0.95
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": 0.14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "velit",
+          "superSubsets": [
+            {
+              "title": "ipsum",
+              "subsets": [
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.04
+                },
+                {
+                  "value": 0.9
+                },
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": 0.3
+                }
+              ]
+            },
+            {
+              "title": "sunt",
+              "subsets": [
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.85
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.28
+                },
+                {
+                  "value": 0.36
+                }
+              ]
+            },
+            {
+              "title": "mollit",
+              "subsets": [
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": 0.19
+                }
+              ]
+            },
+            {
+              "title": "aliqua",
+              "subsets": [
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": -0.56
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ut",
+          "superSubsets": [
+            {
+              "title": "ipsum",
+              "subsets": [
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": 0.31
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": -0.28
+                }
+              ]
+            },
+            {
+              "title": "aliqua",
+              "subsets": [
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.22
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "title": "aute",
+              "subsets": [
+                {
+                  "value": -0.28
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": -0.19
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.87
+                }
+              ]
+            },
+            {
+              "title": "amet",
+              "subsets": [
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.03
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "mollit",
+          "superSubsets": [
+            {
+              "title": "nulla",
+              "subsets": [
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.7
+                }
+              ]
+            },
+            {
+              "title": "ea",
+              "subsets": [
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": -0.07
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.32
+                }
+              ]
+            },
+            {
+              "title": "aute",
+              "subsets": [
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": 0.14
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": 0.88
+                }
+              ]
+            },
+            {
+              "title": "sint",
+              "subsets": [
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.83
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": -0.96
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.88
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "sunt",
+          "superSubsets": [
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": 0.2
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": -0.81
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.21
+                }
+              ]
+            },
+            {
+              "title": "minim",
+              "subsets": [
+                {
+                  "value": 0.17
+                },
+                {
+                  "value": -0.65
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": -0.88
+                }
+              ]
+            },
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.22
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "title": "aute",
+              "subsets": [
+                {
+                  "value": 0.46
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "laborum",
+          "superSubsets": [
+            {
+              "title": "nostrud",
+              "subsets": [
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": -0.41
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": -0.15
+                },
+                {
+                  "value": 0.98
+                }
+              ]
+            },
+            {
+              "title": "sint",
+              "subsets": [
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": -0.67
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.65
+                }
+              ]
+            },
+            {
+              "title": "cillum",
+              "subsets": [
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": -0.03
+                }
+              ]
+            },
+            {
+              "title": "duis",
+              "subsets": [
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": 0.06
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "mollit",
+          "superSubsets": [
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": -0.95
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": -0.09
+                },
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": -0.17
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": -0.67
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.65
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": -0.69
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 0.72
+                }
+              ]
+            },
+            {
+              "title": "irure",
+              "subsets": [
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": -0.94
+                }
+              ]
+            },
+            {
+              "title": "nisi",
+              "subsets": [
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": -1
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": 0.84
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "eiusmod",
+      "topics": [
+        {
+          "title": "elit",
+          "superSubsets": [
+            {
+              "title": "enim",
+              "subsets": [
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.41
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": 0.1
+                },
+                {
+                  "value": 0.47
+                },
+                {
+                  "value": -0.77
+                }
+              ]
+            },
+            {
+              "title": "duis",
+              "subsets": [
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "title": "sint",
+              "subsets": [
+                {
+                  "value": -0.97
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.48
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": 0.53
+                }
+              ]
+            },
+            {
+              "title": "nisi",
+              "subsets": [
+                {
+                  "value": -0.41
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.69
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.61
+                },
+                {
+                  "value": -0.41
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": -0.85
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "nostrud",
+          "superSubsets": [
+            {
+              "title": "ea",
+              "subsets": [
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.93
+                }
+              ]
+            },
+            {
+              "title": "eu",
+              "subsets": [
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": -0.83
+                },
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": 0.73
+                }
+              ]
+            },
+            {
+              "title": "officia",
+              "subsets": [
+                {
+                  "value": -1
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.47
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": 0.66
+                }
+              ]
+            },
+            {
+              "title": "velit",
+              "subsets": [
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.5
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": 0.46
+                },
+                {
+                  "value": -0.96
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.68
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "amet",
+          "superSubsets": [
+            {
+              "title": "pariatur",
+              "subsets": [
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.81
+                },
+                {
+                  "value": 0.72
+                },
+                {
+                  "value": 0.75
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": 0.08
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": -0.5
+                },
+                {
+                  "value": 0.82
+                }
+              ]
+            },
+            {
+              "title": "laborum",
+              "subsets": [
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": 0.55
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.36
+                }
+              ]
+            },
+            {
+              "title": "ex",
+              "subsets": [
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.94
+                }
+              ]
+            },
+            {
+              "title": "fugiat",
+              "subsets": [
+                {
+                  "value": -0.03
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": -0.13
+                },
+                {
+                  "value": 0.84
+                },
+                {
+                  "value": 0.37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "laborum",
+          "superSubsets": [
+            {
+              "title": "ullamco",
+              "subsets": [
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.09
+                },
+                {
+                  "value": -0.04
+                }
+              ]
+            },
+            {
+              "title": "deserunt",
+              "subsets": [
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": -0.58
+                },
+                {
+                  "value": -1
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": 0.71
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": -1
+                },
+                {
+                  "value": 0.95
+                },
+                {
+                  "value": 0.51
+                }
+              ]
+            },
+            {
+              "title": "et",
+              "subsets": [
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -1
+                },
+                {
+                  "value": -0.22
+                },
+                {
+                  "value": -0.26
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": 0.23
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": 0.05
+                }
+              ]
+            },
+            {
+              "title": "in",
+              "subsets": [
+                {
+                  "value": -0.61
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": -0.56
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": -0.98
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ullamco",
+          "superSubsets": [
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": -1
+                },
+                {
+                  "value": 0.85
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.07
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": -0.19
+                },
+                {
+                  "value": -0.85
+                }
+              ]
+            },
+            {
+              "title": "fugiat",
+              "subsets": [
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": 0.81
+                },
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": -0.74
+                }
+              ]
+            },
+            {
+              "title": "aute",
+              "subsets": [
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": -0.07
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": -0.75
+                }
+              ]
+            },
+            {
+              "title": "laborum",
+              "subsets": [
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ad",
+          "superSubsets": [
+            {
+              "title": "velit",
+              "subsets": [
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": 0.17
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.15
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.65
+                },
+                {
+                  "value": -0.62
+                }
+              ]
+            },
+            {
+              "title": "aliquip",
+              "subsets": [
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.13
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": -0.31
+                }
+              ]
+            },
+            {
+              "title": "esse",
+              "subsets": [
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": -0.48
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": -0.1
+                }
+              ]
+            },
+            {
+              "title": "dolore",
+              "subsets": [
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.31
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": -0.02
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.97
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "in",
+          "superSubsets": [
+            {
+              "title": "elit",
+              "subsets": [
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": -0.83
+                },
+                {
+                  "value": 0.84
+                },
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": -0.53
+                }
+              ]
+            },
+            {
+              "title": "sint",
+              "subsets": [
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": 0.04
+                },
+                {
+                  "value": -0.27
+                }
+              ]
+            },
+            {
+              "title": "eiusmod",
+              "subsets": [
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": 0.49
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": 0.49
+                }
+              ]
+            },
+            {
+              "title": "mollit",
+              "subsets": [
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": 0.6
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": 0.47
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "nisi",
+      "topics": [
+        {
+          "title": "laboris",
+          "superSubsets": [
+            {
+              "title": "ad",
+              "subsets": [
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": 0.8
+                }
+              ]
+            },
+            {
+              "title": "laborum",
+              "subsets": [
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.2
+                }
+              ]
+            },
+            {
+              "title": "do",
+              "subsets": [
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.48
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": 0.32
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "title": "dolor",
+              "subsets": [
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": -0.52
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "minim",
+          "superSubsets": [
+            {
+              "title": "anim",
+              "subsets": [
+                {
+                  "value": 0.49
+                },
+                {
+                  "value": 0.53
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.95
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": 0.09
+                }
+              ]
+            },
+            {
+              "title": "qui",
+              "subsets": [
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": 0.67
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": 0.44
+                },
+                {
+                  "value": -0.97
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": 0.12
+                }
+              ]
+            },
+            {
+              "title": "deserunt",
+              "subsets": [
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.75
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": 0.04
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.8
+                }
+              ]
+            },
+            {
+              "title": "adipisicing",
+              "subsets": [
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": 0.81
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": 0.85
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.54
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "do",
+          "superSubsets": [
+            {
+              "title": "fugiat",
+              "subsets": [
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.04
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -1
+                },
+                {
+                  "value": -0.56
+                }
+              ]
+            },
+            {
+              "title": "occaecat",
+              "subsets": [
+                {
+                  "value": 0.32
+                },
+                {
+                  "value": 0.95
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": -0.7
+                },
+                {
+                  "value": 0.85
+                }
+              ]
+            },
+            {
+              "title": "mollit",
+              "subsets": [
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.19
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": -0.08
+                }
+              ]
+            },
+            {
+              "title": "quis",
+              "subsets": [
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": 0.92
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": 0.73
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "eiusmod",
+          "superSubsets": [
+            {
+              "title": "proident",
+              "subsets": [
+                {
+                  "value": -0.22
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.93
+                }
+              ]
+            },
+            {
+              "title": "incididunt",
+              "subsets": [
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": 0.64
+                },
+                {
+                  "value": 0.77
+                },
+                {
+                  "value": 0.08
+                },
+                {
+                  "value": 0.72
+                },
+                {
+                  "value": 0.49
+                },
+                {
+                  "value": -0.81
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.82
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": -0.69
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": -0.65
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": -0.41
+                }
+              ]
+            },
+            {
+              "title": "non",
+              "subsets": [
+                {
+                  "value": -0.03
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": -0.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "labore",
+          "superSubsets": [
+            {
+              "title": "elit",
+              "subsets": [
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": -0.48
+                }
+              ]
+            },
+            {
+              "title": "non",
+              "subsets": [
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": -0.72
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": -0.47
+                },
+                {
+                  "value": -0.1
+                }
+              ]
+            },
+            {
+              "title": "culpa",
+              "subsets": [
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": 0.63
+                },
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.73
+                }
+              ]
+            },
+            {
+              "title": "dolore",
+              "subsets": [
+                {
+                  "value": 1
+                },
+                {
+                  "value": -0.86
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.55
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.46
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "in",
+          "superSubsets": [
+            {
+              "title": "aliqua",
+              "subsets": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": -0.61
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "title": "pariatur",
+              "subsets": [
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": -0.83
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": 0.71
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": 0.19
+                },
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.13
+                }
+              ]
+            },
+            {
+              "title": "elit",
+              "subsets": [
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.94
+                }
+              ]
+            },
+            {
+              "title": "ea",
+              "subsets": [
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.5
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": -0.35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "reprehenderit",
+      "topics": [
+        {
+          "title": "culpa",
+          "superSubsets": [
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": 0.72
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": 0.04
+                }
+              ]
+            },
+            {
+              "title": "et",
+              "subsets": [
+                {
+                  "value": 0.1
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": -0.56
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": 0.85
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": -0.35
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": 0.83
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.07
+                },
+                {
+                  "value": -0.06
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.1
+                },
+                {
+                  "value": 0.92
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": -0.51
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ullamco",
+          "superSubsets": [
+            {
+              "title": "nostrud",
+              "subsets": [
+                {
+                  "value": 0.23
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": -0.65
+                },
+                {
+                  "value": -0.56
+                }
+              ]
+            },
+            {
+              "title": "culpa",
+              "subsets": [
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.42
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": 0.22
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": -0.58
+                },
+                {
+                  "value": -0.11
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": 0.72
+                },
+                {
+                  "value": -0.8
+                }
+              ]
+            },
+            {
+              "title": "minim",
+              "subsets": [
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": -0.19
+                },
+                {
+                  "value": 0.66
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": -0.73
+                },
+                {
+                  "value": 0.21
+                }
+              ]
+            },
+            {
+              "title": "eu",
+              "subsets": [
+                {
+                  "value": 0.2
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": -0.69
+                },
+                {
+                  "value": 0.11
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.82
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "nisi",
+          "superSubsets": [
+            {
+              "title": "quis",
+              "subsets": [
+                {
+                  "value": 0.84
+                },
+                {
+                  "value": 0.1
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "title": "dolore",
+              "subsets": [
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": 0.92
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": -0.18
+                }
+              ]
+            },
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 0.14
+                },
+                {
+                  "value": 0.75
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": 0.69
+                }
+              ]
+            },
+            {
+              "title": "enim",
+              "subsets": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": -0.85
+                },
+                {
+                  "value": -0.38
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "qui",
+          "superSubsets": [
+            {
+              "title": "et",
+              "subsets": [
+                {
+                  "value": 0.44
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": 0.95
+                },
+                {
+                  "value": -0.17
+                },
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": -0.78
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.72
+                },
+                {
+                  "value": -0.33
+                }
+              ]
+            },
+            {
+              "title": "et",
+              "subsets": [
+                {
+                  "value": 0.44
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": -0.52
+                },
+                {
+                  "value": 0.31
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": -0.61
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.89
+                }
+              ]
+            },
+            {
+              "title": "occaecat",
+              "subsets": [
+                {
+                  "value": -0.77
+                },
+                {
+                  "value": 0.23
+                },
+                {
+                  "value": 0.46
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.22
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": 0.51
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": -0.12
+                }
+              ]
+            },
+            {
+              "title": "adipisicing",
+              "subsets": [
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": -0.06
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": -0.04
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": 0.58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "enim",
+          "superSubsets": [
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": 0.72
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": -0.23
+                },
+                {
+                  "value": 0.86
+                }
+              ]
+            },
+            {
+              "title": "ullamco",
+              "subsets": [
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.3
+                },
+                {
+                  "value": 0.16
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.47
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": -0.31
+                }
+              ]
+            },
+            {
+              "title": "irure",
+              "subsets": [
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": -0.05
+                },
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.14
+                },
+                {
+                  "value": -0.57
+                }
+              ]
+            },
+            {
+              "title": "quis",
+              "subsets": [
+                {
+                  "value": 0.66
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.67
+                },
+                {
+                  "value": -0.36
+                },
+                {
+                  "value": 0.05
+                },
+                {
+                  "value": -0.09
+                },
+                {
+                  "value": 0.19
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "in",
+          "superSubsets": [
+            {
+              "title": "aute",
+              "subsets": [
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": -0.19
+                }
+              ]
+            },
+            {
+              "title": "do",
+              "subsets": [
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": -0.61
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": 1
+                },
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": -0.7
+                },
+                {
+                  "value": -0.56
+                },
+                {
+                  "value": -0.26
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": -0.84
+                }
+              ]
+            },
+            {
+              "title": "nisi",
+              "subsets": [
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.81
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": 0.77
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": -0.84
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": 0.98
+                }
+              ]
+            },
+            {
+              "title": "elit",
+              "subsets": [
+                {
+                  "value": 0.76
+                },
+                {
+                  "value": -0.99
+                },
+                {
+                  "value": 0.08
+                },
+                {
+                  "value": 0.37
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": 0.62
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": 0.44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "non",
+          "superSubsets": [
+            {
+              "title": "do",
+              "subsets": [
+                {
+                  "value": -0.98
+                },
+                {
+                  "value": 0.34
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": -0.46
+                },
+                {
+                  "value": -0.54
+                },
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": 0.6
+                },
+                {
+                  "value": 0.61
+                }
+              ]
+            },
+            {
+              "title": "sunt",
+              "subsets": [
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.75
+                },
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": 0.22
+                },
+                {
+                  "value": 0.04
+                },
+                {
+                  "value": -0.53
+                },
+                {
+                  "value": 0.99
+                },
+                {
+                  "value": 0.22
+                }
+              ]
+            },
+            {
+              "title": "excepteur",
+              "subsets": [
+                {
+                  "value": -0.75
+                },
+                {
+                  "value": 0.17
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": -0.33
+                },
+                {
+                  "value": -0.48
+                },
+                {
+                  "value": -0.96
+                },
+                {
+                  "value": 0.47
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": 0.78
+                }
+              ]
+            },
+            {
+              "title": "aliquip",
+              "subsets": [
+                {
+                  "value": -0.44
+                },
+                {
+                  "value": 0.6
+                },
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": 0.49
+                },
+                {
+                  "value": 0.31
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": 0.42
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": -0.71
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "et",
+          "superSubsets": [
+            {
+              "title": "id",
+              "subsets": [
+                {
+                  "value": -0.89
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": 0.58
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": 0.83
+                },
+                {
+                  "value": 0.86
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.11
+                },
+                {
+                  "value": -0.34
+                }
+              ]
+            },
+            {
+              "title": "ex",
+              "subsets": [
+                {
+                  "value": -0.66
+                },
+                {
+                  "value": 0.18
+                },
+                {
+                  "value": -0.29
+                },
+                {
+                  "value": -0.31
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.43
+                },
+                {
+                  "value": -0.2
+                },
+                {
+                  "value": 0.4
+                },
+                {
+                  "value": 0.06
+                },
+                {
+                  "value": 0.55
+                }
+              ]
+            },
+            {
+              "title": "esse",
+              "subsets": [
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": 0.14
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.88
+                },
+                {
+                  "value": 0.85
+                },
+                {
+                  "value": 0.33
+                },
+                {
+                  "value": -0.3
+                }
+              ]
+            },
+            {
+              "title": "et",
+              "subsets": [
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.38
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": 0.59
+                },
+                {
+                  "value": -0.7
+                },
+                {
+                  "value": 0.39
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": 0.88
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "fugiat",
+          "superSubsets": [
+            {
+              "title": "veniam",
+              "subsets": [
+                {
+                  "value": -0.22
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": -0.91
+                },
+                {
+                  "value": -0.42
+                },
+                {
+                  "value": 0.74
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.64
+                },
+                {
+                  "value": 0.27
+                },
+                {
+                  "value": 0.13
+                }
+              ]
+            },
+            {
+              "title": "magna",
+              "subsets": [
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": -0.5
+                },
+                {
+                  "value": 0.13
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": -0.56
+                },
+                {
+                  "value": -0.79
+                }
+              ]
+            },
+            {
+              "title": "sit",
+              "subsets": [
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.09
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": -0.87
+                },
+                {
+                  "value": 0.44
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.21
+                },
+                {
+                  "value": -0.42
+                }
+              ]
+            },
+            {
+              "title": "non",
+              "subsets": [
+                {
+                  "value": 0.71
+                },
+                {
+                  "value": 0.88
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": 0.42
+                },
+                {
+                  "value": 0.19
+                },
+                {
+                  "value": 0.1
+                },
+                {
+                  "value": 0.89
+                },
+                {
+                  "value": -0.14
+                },
+                {
+                  "value": -0.64
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "id",
+          "superSubsets": [
+            {
+              "title": "tempor",
+              "subsets": [
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": 0.75
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": -0.34
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": -0.3
+                }
+              ]
+            },
+            {
+              "title": "culpa",
+              "subsets": [
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": -0.51
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": -0.04
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": 0.45
+                },
+                {
+                  "value": -0.28
+                },
+                {
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "title": "cillum",
+              "subsets": [
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.15
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": -0.45
+                },
+                {
+                  "value": 0.82
+                },
+                {
+                  "value": 0.8
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.17
+                }
+              ]
+            },
+            {
+              "title": "nisi",
+              "subsets": [
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": 0.7
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.37
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": -0.08
+                },
+                {
+                  "value": -0.24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "dolor",
+          "superSubsets": [
+            {
+              "title": "non",
+              "subsets": [
+                {
+                  "value": 0.14
+                },
+                {
+                  "value": 0.78
+                },
+                {
+                  "value": 0.26
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": -0.27
+                },
+                {
+                  "value": -0.16
+                },
+                {
+                  "value": 0.84
+                },
+                {
+                  "value": -0.56
+                },
+                {
+                  "value": 0.29
+                },
+                {
+                  "value": -0.27
+                }
+              ]
+            },
+            {
+              "title": "laboris",
+              "subsets": [
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": 0.2
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": -0.32
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": -0.8
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": 0.65
+                },
+                {
+                  "value": 0.35
+                }
+              ]
+            },
+            {
+              "title": "est",
+              "subsets": [
+                {
+                  "value": 0.54
+                },
+                {
+                  "value": -0.74
+                },
+                {
+                  "value": -0.83
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": -0.93
+                },
+                {
+                  "value": 0.04
+                },
+                {
+                  "value": -0.03
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": -0.97
+                },
+                {
+                  "value": 0.24
+                }
+              ]
+            },
+            {
+              "title": "aliqua",
+              "subsets": [
+                {
+                  "value": 0.17
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.21
+                },
+                {
+                  "value": 0.52
+                },
+                {
+                  "value": -0.11
+                },
+                {
+                  "value": -0.96
+                },
+                {
+                  "value": -0.02
+                },
+                {
+                  "value": -0.92
+                },
+                {
+                  "value": -0.08
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "reprehenderit",
+          "superSubsets": [
+            {
+              "title": "cillum",
+              "subsets": [
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": 0.01
+                },
+                {
+                  "value": -0.82
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.49
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.57
+                },
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.25
+                }
+              ]
+            },
+            {
+              "title": "mollit",
+              "subsets": [
+                {
+                  "value": -0.24
+                },
+                {
+                  "value": 0.25
+                },
+                {
+                  "value": 0.96
+                },
+                {
+                  "value": 0.93
+                },
+                {
+                  "value": 0.08
+                },
+                {
+                  "value": 0.79
+                },
+                {
+                  "value": 0.73
+                },
+                {
+                  "value": 0.64
+                },
+                {
+                  "value": 0.03
+                },
+                {
+                  "value": 0.07
+                }
+              ]
+            },
+            {
+              "title": "magna",
+              "subsets": [
+                {
+                  "value": 0.48
+                },
+                {
+                  "value": 0.94
+                },
+                {
+                  "value": 0.07
+                },
+                {
+                  "value": 0.87
+                },
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.68
+                },
+                {
+                  "value": 0.41
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": -0.38
+                }
+              ]
+            },
+            {
+              "title": "est",
+              "subsets": [
+                {
+                  "value": -0.6
+                },
+                {
+                  "value": -0.04
+                },
+                {
+                  "value": 0.69
+                },
+                {
+                  "value": 0.97
+                },
+                {
+                  "value": -0.09
+                },
+                {
+                  "value": 0.68
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": -0.25
+                },
+                {
+                  "value": 0.98
+                },
+                {
+                  "value": 0.83
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "sit",
+          "superSubsets": [
+            {
+              "title": "veniam",
+              "subsets": [
+                {
+                  "value": 0.61
+                },
+                {
+                  "value": 0.67
+                },
+                {
+                  "value": 0.36
+                },
+                {
+                  "value": 0.57
+                },
+                {
+                  "value": -0.18
+                },
+                {
+                  "value": -0.79
+                },
+                {
+                  "value": 0.35
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.26
+                },
+                {
+                  "value": 0.89
+                }
+              ]
+            },
+            {
+              "title": "labore",
+              "subsets": [
+                {
+                  "value": -0.71
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": -0.9
+                },
+                {
+                  "value": -0.39
+                },
+                {
+                  "value": -0.94
+                },
+                {
+                  "value": -0.62
+                },
+                {
+                  "value": -0.4
+                },
+                {
+                  "value": -0.59
+                },
+                {
+                  "value": 0.12
+                },
+                {
+                  "value": -0.03
+                }
+              ]
+            },
+            {
+              "title": "ullamco",
+              "subsets": [
+                {
+                  "value": 0.3
+                },
+                {
+                  "value": -0.63
+                },
+                {
+                  "value": -0.84
+                },
+                {
+                  "value": 0.5
+                },
+                {
+                  "value": -0.97
+                },
+                {
+                  "value": 0.38
+                },
+                {
+                  "value": -0.43
+                },
+                {
+                  "value": -0.76
+                },
+                {
+                  "value": 0.15
+                },
+                {
+                  "value": -0.91
+                }
+              ]
+            },
+            {
+              "title": "id",
+              "subsets": [
+                {
+                  "value": -0.77
+                },
+                {
+                  "value": -0.35
+                },
+                {
+                  "value": 0.91
+                },
+                {
+                  "value": -0.12
+                },
+                {
+                  "value": 0.28
+                },
+                {
+                  "value": -0.01
+                },
+                {
+                  "value": 0.56
+                },
+                {
+                  "value": 0.02
+                },
+                {
+                  "value": 0.24
+                },
+                {
+                  "value": -0.39
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
