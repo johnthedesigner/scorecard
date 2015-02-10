@@ -4,9 +4,13 @@
 
 /* STRUCTURE */
 #page-header{
-    background:#F00;
+    background:#EEE;
     color:#FFF;
     height:60px;
+    position:static;
+    top:0;
+    left:0;
+    right:0;
 }
 #page-header ul{
     list-style:none;
@@ -15,16 +19,19 @@
     display:inline;
 }
 /* SCORECARD TABLE */
-.scorecard-grid-wrapper{
+#scorecard-grid-wrapper{
     position:fixed;
     top:70px;
     left:10px;
     right:10px;
     bottom:10px;
     overflow:scroll;
-    background:#CCC;
+    background:#FFF;
+    border:#DDD solid 1px;
+    box-sizing:border-box;
 }
 .cell-body{
+    position:relative;
     display:block;
     width:100px;
     height:30px;
@@ -33,66 +40,79 @@
 }
 
 /* Header */
-.scorecard-grid-header{
+#scorecard-grid-header{
+    background:#EEE;
+    border-bottom:#DDD solid 1px;
     position:absolute;
     top:0;
     left:0;
     height:$headerHeight;
+    z-index:2;
 }
-.scorecard-grid-header ul, .scorecard-grid-header ul li{
+#scorecard-grid-header ul, #scorecard-grid-header ul li{
     list-style:none;
     margin:0;
     padding:0;
 }
-.scorecard-grid-header > ul > li{
+#scorecard-grid-header > ul{
+    margin-left:$sidebarWidth;
+}
+#scorecard-grid-header > ul > li{
     float:left;
     border-color:#AAA;
     border-style:solid;
     border-width:0 0 0 1px;
 }
-.scorecard-grid-header > ul > li > ul{
+#scorecard-grid-header > ul > li > ul{
     display:inline;
 }
-.scorecard-grid-header > ul > li > ul > li{
+#scorecard-grid-header > ul > li > ul > li{
     float:left;
     width:$cellWidth;
 }
-.scorecard-grid-header > ul > li.table-title{
+#scorecard-grid-header #table-title{
+    background:#FFF;
+    border-right:#DDD solid 1px;
+    position:absolute;
+    top:0;
+    left:0;
     width:$sidebarWidth;
+    height:$headerHeight;
     margin:0;
-    border:none;
 }
-.scorecard-grid-header > ul > li.table-title span{
+#scorecard-grid-header #table-title span{
     background:none;
     width:$sidebarWidth;
     margin-top:10px;
     font-size:1.5em;
     text-align:center;
 }
-.scorecard-grid-header .cell-body{
+#scorecard-grid-header .cell-body{
     display:block;
-    background:#FFF;
 }
 
 /* Sidebar */
-.scorecard-grid-sidebar{
+#scorecard-grid-sidebar{
+    background:#EEE;
+    border-right:#DDD solid 1px;
     position:absolute;
     top:$headerHeight;
     left:0;
     width:$sidebarWidth;
+    z-index:1;
 }
-.scorecard-grid-sidebar ul, .scorecard-grid-sidebar li{
+#scorecard-grid-sidebar ul, #scorecard-grid-sidebar li{
     list-style:none;
     margin:0;
     padding:0;
 }
-.scorecard-grid-sidebar > ul > li{
+#scorecard-grid-sidebar > ul > li{
     position:relative;
     border-color:#AAA;
     border-style:solid;
     border-width:1px 0 0;
 }
-.scorecard-grid-sidebar > ul > li > span{
+#scorecard-grid-sidebar > ul > li > span{
     position:absolute;
     top:-20px;
     left:0;
@@ -100,65 +120,190 @@
     transform:rotate(90deg);
     transform-origin:0% 100%;
 }
-.scorecard-grid-sidebar > ul > li > ul > li{
+#scorecard-grid-sidebar > ul > li > ul > li{
+    width:$cellWidth*2;
+    height:$cellHeight;
+    margin-left:60px;
+    border-top:#DDD solid 1px;
+    box-sizing:border-box;
+}
+#scorecard-grid-sidebar > ul > li > ul > li:nth-child(1){
     width:$cellWidth*2;
     margin-left:60px;
+    border-top:none;
 }
-.scorecard-grid-sidebar > ul > li > ul > li .cell-body{
-}
-.sidebar-alternating-rows:nth-child(odd){
-    background:#EEE;
+#scorecard-grid-sidebar > ul > li > ul > li .cell-body{
 }
 
 /* Body */
-.scorecard-grid-body{
+#scorecard-grid-body{
     position:absolute;
     top:$headerHeight;
     left:$sidebarWidth;
 }
-.scorecard-grid-body ul, .scorecard-grid-body li{
+#scorecard-grid-body ul, #scorecard-grid-body li{
     list-style:none;
     margin:0;
     padding:0;
 }
 // Row
-.scorecard-grid-body > ul > li{
+#scorecard-grid-body > ul > li{
     display:block;
-    border-color:#AAA;
+    border-color:#FFF;
     border-style:solid;
     border-width:1px 0 0;
 }
 // Super Topic
-.scorecard-grid-body > ul > li > ul > li{
+#scorecard-grid-body > ul > li > ul > li{
     float:left;
 }
-.scorecard-grid-body > ul > li > ul > li > ul{
+#scorecard-grid-body > ul > li > ul > li > ul{
     display:inline;
 }
 // Topic
-.scorecard-grid-body > ul > li > ul > li > ul > li{
+#scorecard-grid-body > ul > li > ul > li > ul > li{
     float:left;
-    border-color:#AAA;
+    border-color:#FFF;
     border-style:solid;
     border-width:0 0 0 1px;
 }
-.scorecard-grid-body > ul > li > ul > li > ul > li > ul{
+#scorecard-grid-body > ul > li > ul > li > ul > li > ul{
     display:inline;
 }
 // Super Subset
-.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li{
+#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li{
     float:left;
 }
-.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul{
+#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul{
     display:inline;
 }
 // Subset/Value
-.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul > li{
+#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul > li{
     width:$cellWidth;
     height:$cellHeight;
-}    
-.body-alternating-rows:nth-child(odd){
-    background:#EEE;
+}
+// Heat Values
+.heat-0{
+    background:hsla($heatmapHue,100%,50%,0);
+}
+.heat-1{
+    background:rgba(70,200,200,.1);
+    background:hsla($heatmapHue,100%,50%,.1);
+}
+.heat-2{
+    background:rgba(70,200,200,.2);
+    background:hsla($heatmapHue,100%,50%,.2);
+}
+.heat-3{
+    background:rgba(70,200,200,.3);
+    background:hsla($heatmapHue,100%,50%,.3);
+}
+.heat-4{
+    background:rgba(70,200,200,.4);
+    background:hsla($heatmapHue,100%,50%,.4);
+}
+.heat-5{
+    background:rgba(70,200,200,.5);
+    background:hsla($heatmapHue,100%,50%,.5);
+}
+.heat-6{
+    background:rgba(70,200,200,.6);
+    background:hsla($heatmapHue,100%,50%,.6);
+}
+.heat-7{
+    background:rgba(70,200,200,.7);
+    background:hsla($heatmapHue,100%,50%,.7);
+}
+.heat-8{
+    background:rgba(70,200,200,.8);
+    background:hsla($heatmapHue,100%,50%,.8);
+}
+.heat-9{
+    background:rgba(70,200,200,.9);
+    background:hsla($heatmapHue,100%,50%,.9);
+}
+// Trends
+// Up
+.trend-1:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:5px;
+    right:5px;
+    height:20px;
+    width:20px;
+    background:#090;
+}
+// Down
+.trend-2:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:5px;
+    right:5px;
+    height:20px;
+    width:20px;
+    background:#900;
 }
 
+// Scroll Shadows
+.scroll-shadow{
+    display:block;
+    position:absolute;
+    background:#F00;
+}
+#scroll-shadow-top{
+    opacity:0;
+    top:130px;
+    right:10px;
+    left:10px;
+    height:10px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 );
+}
+#scroll-shadow-right{
+    top:70px;
+    right:10px;
+    bottom:10px;
+    width:10px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 99%, rgba(0,0,0,0.3) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.3)));
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=1 );
+}
+#scroll-shadow-bottom{
+    bottom:10px;
+    right:10px;
+    left:10px;
+    height:10px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 99%, rgba(0,0,0,0.3) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.3)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 99%,rgba(0,0,0,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=0 );
+}
+#scroll-shadow-left{
+    opacity:0;
+    top:70px;
+    left:270px;
+    bottom:10px;
+    width:10px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=1 );
+}
 

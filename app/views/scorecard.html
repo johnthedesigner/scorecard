@@ -1,17 +1,14 @@
 <div><!-- Table Wrapper -->
     
-    <div class="scorecard-grid-wrapper"><!-- Table -->
+    <div id="scorecard-grid-wrapper" scroll-pane-headers><!-- Table -->
         
-        <header class="scorecard-grid-header" style="width:{{subsets*100+superSubsets+260}}px;"><!-- Table Header -->
+        <header id="scorecard-grid-header"><!-- Table Header -->
             
-            <ul><!-- Super Subset Labels -->
-                <li class="table-title"><!-- Table Title Cell 1,1 -->
-                    <ul>
-                        <li>
-                            <span class="cell-body">{{table.title}}</span>
-                        </li>
-                    </ul>
-                </li>
+            <div id="table-title"><!-- Table Title Cell 1,1 -->
+                <span class="cell-body">{{table.title}}</span>
+            </div>
+
+            <ul style="width:{{subsets*100+superSubsets}}px;"><!-- Super Subset Labels -->
                 <li ng-repeat="superSubset in table.superSubsets">
                     <span class="cell-body">{{superSubset.title}}</span>
                     <ul><!-- Subsets Labels -->
@@ -24,7 +21,7 @@
             
         </header>
         
-        <section class="scorecard-grid-sidebar"><!-- Table Row Labels -->
+        <section id="scorecard-grid-sidebar"><!-- Table Row Labels -->
             
             <ul><!-- Super Topic Labels -->
                 <li ng-repeat="superTopic in table.superTopics">
@@ -39,7 +36,7 @@
             
         </section>
         
-        <section class="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
+        <section id="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
             
             <ul>
                 <li class="clearfix" ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
@@ -49,7 +46,7 @@
                                 <li ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
                                     <ul>
                                         <li ng-repeat="subset in superSubset.subsets"><!-- Subset -->
-                                            <span class="cell-body">{{subset.value}}</span>
+                                            <span class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">{{subset.value}}</span>
                                         </li>
                                     </ul>
                                 </li>
@@ -62,5 +59,11 @@
         </section>
         
     </div>
-    
+
+    <!-- Edge Shadows to imply scrollable content -->
+    <span class="scroll-shadow" id="scroll-shadow-top"></span>
+    <span class="scroll-shadow" id="scroll-shadow-right"></span>
+    <span class="scroll-shadow" id="scroll-shadow-bottom"></span>
+    <span class="scroll-shadow" id="scroll-shadow-left"></span>
+
 </div>
