@@ -1,48 +1,22 @@
-<p>This is the scorecard view.</p>
-
-<!--<div class="scorecard-grid">
-    <ul style="width:{{tableWidth*100+200}}px;">
-        <li class="scorecard-grid-header">
-            <ul>
-                <li class="scorecard-grid-row-label">{{table.title}}</li>
-                <li ng-repeat="column in table">
-                    <span class="scorecard-cell-content">{{column.title}}</span>
-                </li>
-            </ul>
-        </li>
-        <li ng-repeat="row in table.rows">
-            <ul>
-                <li class="scorecard-grid-row-label">{{row.title}}</li>
-                <li ng-repeat="column in row.columns">
-                    <span class="scorecard-cell-content">{{column.value}}</span>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>-->
-
 <div><!-- Table Wrapper -->
     
     <div class="scorecard-grid-wrapper"><!-- Table -->
         
-        <header><!-- Table Header -->
+        <header class="scorecard-grid-header" style="width:{{subsets*100+superSubsets+260}}px;"><!-- Table Header -->
             
-            <ul><!-- Table Title Cell 1,1 -->
-                <li>
+            <ul><!-- Super Subset Labels -->
+                <li class="table-title"><!-- Table Title Cell 1,1 -->
                     <ul>
                         <li>
-                            <span>{{table.title}}</span>
+                            <span class="cell-body">{{table.title}}</span>
                         </li>
                     </ul>
                 </li>
-            </ul>
-            
-            <ul><!-- Super Subset Labels -->
                 <li ng-repeat="superSubset in table.superSubsets">
-                    <span>{{superSubset.title}}</span>
+                    <span class="cell-body">{{superSubset.title}}</span>
                     <ul><!-- Subsets Labels -->
                         <li ng-repeat="subset in superSubset.subsets">
-                            <span>{{subset.title}}</span>
+                            <span class="cell-body">{{subset.title}}</span>
                         </li>
                     </ul>
                 </li>
@@ -50,14 +24,14 @@
             
         </header>
         
-        <section><!-- Table Row Labels -->
+        <section class="scorecard-grid-sidebar"><!-- Table Row Labels -->
             
             <ul><!-- Super Topic Labels -->
                 <li ng-repeat="superTopic in table.superTopics">
-                    <span>{{superTopic.title}}</span>
+                    <span class="cell-body">{{superTopic.title}}</span>
                     <ul><!-- Topic Labels -->
-                        <li ng-repeat="topic in superTopic.topics">
-                            <span>{{topic.title}}</span>
+                        <li class="sidebar-alternating-rows" ng-repeat="topic in superTopic.topics" ng-class-odd="'odd-cell'" ng-class-even="'even-cell'">
+                            <span class="cell-body">{{topic.title}}</span>
                         </li>
                     </ul>
                 </li>
@@ -65,17 +39,17 @@
             
         </section>
         
-        <section style="width:{{tableWidth*100}}px;"><!-- Table Body -->
+        <section class="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
             
             <ul>
-                <li ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
+                <li class="clearfix" ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
                     <ul>
-                        <li ng-repeat="topic in superTopic.topics"><!-- Topic -->
+                        <li class="clearfix body-alternating-rows" ng-repeat="topic in superTopic.topics"><!-- Topic -->
                             <ul>
                                 <li ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
                                     <ul>
-                                        <li ng-repeat="subset in superSubset.subsets">
-                                            <span>{{subset.value}}</span>
+                                        <li ng-repeat="subset in superSubset.subsets"><!-- Subset -->
+                                            <span class="cell-body">{{subset.value}}</span>
                                         </li>
                                     </ul>
                                 </li>

@@ -1,0 +1,164 @@
+@import 'variables';
+@import 'main';
+@import 'normalize';
+
+/* STRUCTURE */
+#page-header{
+    background:#F00;
+    color:#FFF;
+    height:60px;
+}
+#page-header ul{
+    list-style:none;
+}
+#page-header ul li{
+    display:inline;
+}
+/* SCORECARD TABLE */
+.scorecard-grid-wrapper{
+    position:fixed;
+    top:70px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    overflow:scroll;
+    background:#CCC;
+}
+.cell-body{
+    display:block;
+    width:100px;
+    height:30px;
+    padding:5px 10px;
+    box-sizing:border-box;
+}
+
+/* Header */
+.scorecard-grid-header{
+    position:absolute;
+    top:0;
+    left:0;
+    height:$headerHeight;
+}
+.scorecard-grid-header ul, .scorecard-grid-header ul li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.scorecard-grid-header > ul > li{
+    float:left;
+    border-color:#AAA;
+    border-style:solid;
+    border-width:0 0 0 1px;
+}
+.scorecard-grid-header > ul > li > ul{
+    display:inline;
+}
+.scorecard-grid-header > ul > li > ul > li{
+    float:left;
+    width:$cellWidth;
+}
+.scorecard-grid-header > ul > li.table-title{
+    width:$sidebarWidth;
+    margin:0;
+    border:none;
+}
+.scorecard-grid-header > ul > li.table-title span{
+    background:none;
+    width:$sidebarWidth;
+    margin-top:10px;
+    font-size:1.5em;
+    text-align:center;
+}
+.scorecard-grid-header .cell-body{
+    display:block;
+    background:#FFF;
+}
+
+/* Sidebar */
+.scorecard-grid-sidebar{
+    position:absolute;
+    top:$headerHeight;
+    left:0;
+    width:$sidebarWidth;
+}
+.scorecard-grid-sidebar ul, .scorecard-grid-sidebar li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.scorecard-grid-sidebar > ul > li{
+    position:relative;
+    border-color:#AAA;
+    border-style:solid;
+    border-width:1px 0 0;
+}
+.scorecard-grid-sidebar > ul > li > span{
+    position:absolute;
+    top:-20px;
+    left:0;
+    width:$cellWidth;
+    transform:rotate(90deg);
+    transform-origin:0% 100%;
+}
+.scorecard-grid-sidebar > ul > li > ul > li{
+    width:$cellWidth*2;
+    margin-left:60px;
+}
+.scorecard-grid-sidebar > ul > li > ul > li .cell-body{
+}
+.sidebar-alternating-rows:nth-child(odd){
+    background:#EEE;
+}
+
+/* Body */
+.scorecard-grid-body{
+    position:absolute;
+    top:$headerHeight;
+    left:$sidebarWidth;
+}
+.scorecard-grid-body ul, .scorecard-grid-body li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+// Row
+.scorecard-grid-body > ul > li{
+    display:block;
+    border-color:#AAA;
+    border-style:solid;
+    border-width:1px 0 0;
+}
+// Super Topic
+.scorecard-grid-body > ul > li > ul > li{
+    float:left;
+}
+.scorecard-grid-body > ul > li > ul > li > ul{
+    display:inline;
+}
+// Topic
+.scorecard-grid-body > ul > li > ul > li > ul > li{
+    float:left;
+    border-color:#AAA;
+    border-style:solid;
+    border-width:0 0 0 1px;
+}
+.scorecard-grid-body > ul > li > ul > li > ul > li > ul{
+    display:inline;
+}
+// Super Subset
+.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li{
+    float:left;
+}
+.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul{
+    display:inline;
+}
+// Subset/Value
+.scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul > li{
+    width:$cellWidth;
+    height:$cellHeight;
+}    
+.body-alternating-rows:nth-child(odd){
+    background:#EEE;
+}
+
+
