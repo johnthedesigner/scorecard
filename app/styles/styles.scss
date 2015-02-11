@@ -79,6 +79,7 @@
     width:$sidebarWidth;
     height:$headerHeight;
     margin:0;
+    z-index:3;
 }
 #scorecard-grid-header #table-title span{
     background:none;
@@ -89,6 +90,11 @@
 }
 #scorecard-grid-header .cell-body{
     display:block;
+}
+#scorecard-grid-header .cell-body p.cell-text{
+    white-space:nowrap;
+    margin:0;
+    overflow:hidden;
 }
 
 /* Sidebar */
@@ -133,6 +139,12 @@
     border-top:none;
 }
 #scorecard-grid-sidebar > ul > li > ul > li .cell-body{
+    width:$cellWidthX2;
+}
+#scorecard-grid-sidebar > ul > li > ul > li .cell-body p.cell-text{
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 /* Body */

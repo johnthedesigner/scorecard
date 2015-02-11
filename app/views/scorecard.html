@@ -13,7 +13,9 @@
                     <span class="cell-body">{{superSubset.title}}</span>
                     <ul><!-- Subsets Labels -->
                         <li ng-repeat="subset in superSubset.subsets">
-                            <span class="cell-body">{{subset.title}}</span>
+                            <span class="cell-body">
+                                <p class="cell-text">{{subset.title}}</p>
+                            </span>
                         </li>
                     </ul>
                 </li>
@@ -28,7 +30,9 @@
                     <span class="cell-body">{{superTopic.title}}</span>
                     <ul><!-- Topic Labels -->
                         <li class="sidebar-alternating-rows" ng-repeat="topic in superTopic.topics" ng-class-odd="'odd-cell'" ng-class-even="'even-cell'">
-                            <span class="cell-body">{{topic.title}}</span>
+                            <span class="cell-body">
+                                <p class="cell-text">{{topic.title}}</p>
+                            </span>
                         </li>
                     </ul>
                 </li>
