@@ -27,8 +27,8 @@ angular
             templateUrl: 'views/about.html',
             controller: 'AboutCtrl'
         })
-        .when('/scorecard', {
-            templateUrl: 'views/scorecard.html',
+        .when('/reports/scorecard', {
+            templateUrl: 'views/reports/scorecard.html',
             controller: 'ScorecardCtrl'
         })
         .otherwise({
