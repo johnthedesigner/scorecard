@@ -8,9 +8,9 @@
  * Controller of the scorecardApp
  */
 angular.module('scorecardApp')
-  .controller('ScorecardCtrl', ['$scope', '$http',
+  .controller('ReportsScorecardCtrl', ['$scope', '$http',
   function ($scope, $http) {
-    $http.get('data/data.json').success(function(data) {
+    $http.get('data/scoreboard.json').success(function(data) {
         // Return Table Data
         $scope.table = data;
         // Return Number of Subsets

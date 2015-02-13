@@ -29,7 +29,11 @@ angular
         })
         .when('/reports/scorecard', {
             templateUrl: 'views/reports/scorecard.html',
-            controller: 'ScorecardCtrl'
+            controller: 'ReportsScorecardCtrl'
+        })
+        .when('/reports/summary', {
+          templateUrl: 'views/reports/summary.html',
+          controller: 'ReportsSummaryCtrl'
         })
         .otherwise({
             redirectTo: '/'
