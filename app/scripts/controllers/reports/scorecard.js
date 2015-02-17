@@ -10,7 +10,7 @@
 angular.module('scorecardApp')
   .controller('ReportsScorecardCtrl', ['$scope', '$http',
   function ($scope, $http) {
-    $http.get('data/scoreboard.json').success(function(data) {
+    $http.get('data/scoreboard_sample.json').success(function(data) {
         // Return Table Data
         $scope.table = data;
         // Return Number of Subsets
@@ -34,11 +34,5 @@ angular.module('scorecardApp')
             }
             return supersubsets;
         })();
-        //$scope.tableWidth = data.superSubsets[0].subsets.length;
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
     });
 }]);

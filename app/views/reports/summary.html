@@ -1,1 +1,13 @@
-<p>This is the reports/summary view.</p>
+<div><!-- Table Wrapper -->
+    
+    <div id="summary-table-wrapper"><!-- Table -->
+        
+        <header id="summary-table-header"><!-- Table Header -->
+        	<select ng-model="current_segment" ng-options="customer_segment.title for customer_segment in table.customer_segments"></select>
+        </header>
+        
+        <h2>Current Segment -> {{current_segment.title}}</h2>
+        
+    </div>
+            
+</div>

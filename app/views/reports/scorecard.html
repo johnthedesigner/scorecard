@@ -50,7 +50,9 @@
                                 <li ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
                                     <ul>
                                         <li ng-repeat="subset in superSubset.subsets"><!-- Subset -->
-                                            <span class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">{{subset.value}}</span>
+                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">
+                                            	<span class="scorecard-grid-value">{{subset.value}}</span>
+                                        	</div>
                                         </li>
                                     </ul>
                                 </li>
