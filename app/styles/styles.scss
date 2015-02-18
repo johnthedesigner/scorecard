@@ -100,6 +100,9 @@ html,body{
 #scorecard-grid-header .cell-body{
     display:block;
 }
+#scorecard-grid-header > ul > li span{
+	width:100%;
+}
 #scorecard-grid-header .cell-body p.cell-text{
     white-space:nowrap;
     margin:0;
@@ -121,7 +124,7 @@ html,body{
     margin:0;
     padding:0;
 }
-#scorecard-grid-sidebar > ul > li{
+#scorecard-grid-sidebar .scorecard-grid-sidebar-supertopic{
     position:relative;
     border-color:#AAA;
     border-style:solid;
@@ -135,17 +138,24 @@ html,body{
     transform:rotate(90deg);
     transform-origin:0% 100%;
 }
-#scorecard-grid-sidebar > ul > li > ul > li{
+#scorecard-grid-sidebar .scorecard-grid-sidebar-topic{
     width:$cellWidth*2;
-    height:$cellHeight;
     margin-left:60px;
-    border-top:#DDD solid 1px;
-    box-sizing:border-box;
 }
-#scorecard-grid-sidebar > ul > li > ul > li:nth-child(1){
+#scorecard-grid-sidebar .scorecard-grid-sidebar-topic:nth-child(1){
     width:$cellWidth*2;
     margin-left:60px;
     border-top:none;
+}
+#scorecard-grid-sidebar .scorecard-grid-sidebar-topic > span{
+    border-top:#DDD solid 1px;
+    box-sizing:border-box;
+}
+#scorecard-grid-sidebar .scorecard-grid-sidebar-topic:nth-child(1) > span{
+    border-top:none;
+}
+#scorecard-grid-sidebar .scorecard-grid-sidebar-subtopic{
+	
 }
 #scorecard-grid-sidebar > ul > li > ul > li .cell-body{
     width:$cellWidthX2;
@@ -162,44 +172,62 @@ html,body{
     top:$headerHeight;
     left:$sidebarWidth;
 }
+#scorecard-grid-body ul{
+	display:inline;
+}
 #scorecard-grid-body ul, #scorecard-grid-body li{
     list-style:none;
     margin:0;
     padding:0;
 }
-// Row
-#scorecard-grid-body > ul > li{
+// Super-Topic
+#scorecard-grid-body .scorecard-grid-supertopic{
     display:block;
     border-color:#FFF;
     border-style:solid;
     border-width:1px 0 0;
 }
-// Super Topic
-#scorecard-grid-body > ul > li > ul > li{
+// Topic
+#scorecard-grid-body .scorecard-grid-topics .scorecard-grid-topic:nth-child(1){
+	border-top:#FFF solid 1px;
+}
+#scorecard-grid-body .scorecard-grid-supertopic:nth-child(1) .scorecard-grid-topic:nth-child(1){
+	border-top:none;
+}
+#scorecard-grid-body .scorecard-grid-topic{
     float:left;
 }
-#scorecard-grid-body > ul > li > ul > li > ul{
-    display:inline;
-}
-// Topic
-#scorecard-grid-body > ul > li > ul > li > ul > li{
+// Super-Subset
+#scorecard-grid-body .scorecard-grid-supersubset{
     float:left;
     border-color:#FFF;
     border-style:solid;
     border-width:0 0 0 1px;
 }
-#scorecard-grid-body > ul > li > ul > li > ul > li > ul{
-    display:inline;
-}
-// Super Subset
-#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li{
+// Subset
+#scorecard-grid-body .scorecard-grid-subset{
     float:left;
 }
-#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul{
-    display:inline;
+// Sub-Topic
+#scorecard-grid-body .scorecard-grid-subtopics{
+    border-color:#DDD;
+    border-style:solid;
+    border-width:1px 0;
+    background:#DDD;
 }
-// Subset/Value
-#scorecard-grid-body > ul > li > ul > li > ul > li > ul > li > ul > li{
+#scorecard-grid-body .scorecard-grid-subtopic{
+    float:left;
+    border:none;
+}
+#scorecard-grid-body .scorecard-grid-subtopic-supersubset{
+    float:left;
+    border-color:#FFF;
+    border-style:solid;
+    border-width:0 0 0 1px;
+    background:#DDD;
+}
+#scorecard-grid-body .scorecard-grid-subtopic-subset{
+	float:left;
     width:$cellWidth;
     height:$cellHeight;
 }
@@ -331,3 +359,107 @@ html,body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=1 );
 }
 
+/* SUMMARY */
+#summary-table-wrapper{
+    position:fixed;
+    top:70px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    overflow:scroll;
+	border:#DDD solid 1px;
+}
+#summary-table-header{
+	text-align:left;
+	width:100%;
+	margin:0 auto;
+	background:#EEE;
+}
+#summary-table-header p{
+	padding:20px 10px;
+	margin:0 0 10px;
+}
+#summary-table{
+	width:100%;
+	margin:0 auto;
+	table-layout:fixed;
+	border-bottom:#DDD solid 1px;
+}
+#summary-table thead{
+	text-align:left;
+	font-size:.75em;
+	color:#999;
+}
+#summary-table thead span{
+	display:block;
+	padding:5px 10px;
+	white-space:normal;
+}
+#summary-table .summary-table-col-1{
+	width:20%;
+}
+#summary-table .summary-table-col-2{
+	width:10%;
+}
+#summary-table .summary-table-col-3{
+	width:10%;
+}
+#summary-table .summary-table-col-4{
+	width:30%;
+}
+#summary-table .summary-table-col-5{
+	width:30%;
+}
+#summary-table tbody tr{
+	border-top:#DDD solid 1px;
+}
+#summary-table tbody tr:nth-child(odd){
+	background:#EEE;
+}
+.summary-table-cell{
+	padding:7px 10px;
+	line-height:2.5;
+}
+.summary-table-title{
+	display:block;
+	background:#FFF;
+	padding:0;
+	line-height:2.5;
+	margin-right:10px;
+	padding-left:10px;
+	border-right:#DDD solid 1px;
+}
+.summary-table-pos{
+	color:rgb(108,189,69);
+}
+.summary-table-neg{
+	color:rgb(239,83,45);
+}
+.summary-table-driver{
+	background:#DDD;
+	background:rgba(0,0,0,.05);
+	padding:2px 5px;
+	margin:5px;
+	line-height:2.5;
+	border-radius:2px;
+}
+.summary-table-driver-pos{
+	background:rgb(108,189,69);
+	background:rgba(108,189,69,.1);
+	color:rgb(108,189,69);
+}
+.summary-table-driver-neg{
+	background:rgb(239,83,45);
+	background:rgba(239,83,45,0.1);
+	color:rgb(239,83,45);
+}
+
+/* SWITCH DATA ANIMATION */
+.animate-enter,.animate-leave {
+	-webkit-transition: 1s linear all; /* Chrome */
+	transition: 1s linear all;
+	opacity: 0;
+}
+.animate-enter.animate-enter-active, .animate-leave.animate-leave-active {
+	opacity: 1;
+}

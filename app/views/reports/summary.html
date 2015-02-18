@@ -3,10 +3,50 @@
     <div id="summary-table-wrapper"><!-- Table -->
         
         <header id="summary-table-header"><!-- Table Header -->
-        	<select ng-model="current_segment" ng-options="customer_segment.title for customer_segment in table.customer_segments"></select>
+        	<p>Customer Segment: <select ng-model="current_segment" ng-options="customer_segment.title for customer_segment in table['Consumer Segment']"></select></p>
         </header>
         
-        <h2>Current Segment -> {{current_segment.title}}</h2>
+        <table id="summary-table">
+	        <thead>
+		        <tr>
+			        <th class="summary-table-col-1">
+				        <span>Brand</span>
+			        </th>
+			        <th class="summary-table-col-2">
+				        <span>Rank</span>
+			        </th>
+			        <th class="summary-table-col-3">
+				        <span>Comparison</span>
+			        </th>
+			        <th class="summary-table-col-4">
+				        <span>Positive Drivers</span>
+			        </th>
+			        <th class="summary-table-col-5">
+				        <span>Negative Drivers</span>
+			        </th>
+		        </tr>
+	        </thead>
+	        <tbody>
+		        <tr ng-repeat="row in current_segment.row_data track by row.rank">
+			        <td class="summary-table-col-1">
+				        <span class="summary-table-cell summary-table-title">{{row.title}}</span>
+			        </td>
+			        <td class="summary-table-col-2">
+				        <span class="summary-table-cell">{{row.rank}}</span>
+			        </td>
+			        <td class="summary-table-col-3">
+				        <span class="summary-table-cell summary-table-pos" ng-if="row.comparison > 0">{{row.comparison.toFixed(2)*100}}%</span>
+				        <span class="summary-table-cell summary-table-neg" ng-if="row.comparison <= 0">{{row.comparison.toFixed(2)*100}}%</span>
+			        </td>
+			        <td class="summary-table-col-4">
+				        <span class="summary-table-cell summary-table-driver summary-table-driver-pos" ng-repeat="driver in row.drivers[0].drivers">{{driver}}</span> 
+			        </td>
+			        <td class="summary-table-col-5">
+				        <span class="summary-table-cell summary-table-driver summary-table-driver-neg" ng-repeat="driver in row.drivers[1].drivers">{{driver}}</span> 
+			        </td>
+		        </tr>
+	        </tbody>
+        </table>
         
     </div>
             

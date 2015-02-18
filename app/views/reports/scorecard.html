@@ -26,13 +26,20 @@
         <section id="scorecard-grid-sidebar"><!-- Table Row Labels -->
             
             <ul><!-- Super Topic Labels -->
-                <li ng-repeat="superTopic in table.superTopics">
+                <li class="scorecard-grid-sidebar-supertopic" ng-repeat="superTopic in table.superTopics">
                     <span class="cell-body">{{superTopic.title}}</span>
                     <ul><!-- Topic Labels -->
-                        <li class="sidebar-alternating-rows" ng-repeat="topic in superTopic.topics" ng-class-odd="'odd-cell'" ng-class-even="'even-cell'">
+                        <li class="scorecard-grid-sidebar-topic" ng-repeat="topic in superTopic.topics">
                             <span class="cell-body">
                                 <p class="cell-text">{{topic.title}}</p>
                             </span>
+                            <ul class="clearfix">
+	                            <li class="scorecard-grid-sidebar-subtopic" ng-repeat="subtopic in topic.topics">
+		                            <span class="cell-body">
+		                                <p class="cell-text">{{subtopic.title}}</p>
+		                            </span>
+	                            </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -43,19 +50,35 @@
         <section id="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
             
             <ul>
-                <li class="clearfix" ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
-                    <ul>
-                        <li class="clearfix body-alternating-rows" ng-repeat="topic in superTopic.topics"><!-- Topic -->
+                <li class="scorecard-grid-supertopic" ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
+                    <ul class="scorecard-grid-topics">
+                        <li class="scorecard-grid-topic" ng-repeat="topic in superTopic.topics"><!-- Topic -->
                             <ul>
-                                <li ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
+                                <li class="scorecard-grid-supersubset" ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
                                     <ul>
-                                        <li ng-repeat="subset in superSubset.subsets"><!-- Subset -->
+                                        <li class="scorecard-grid-subset" ng-repeat="subset in superSubset.subsets"><!-- Subset -->
                                             <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">
-                                            	<span class="scorecard-grid-value">{{subset.value}}</span>
+                                            	<span class="scorecard-grid-value">{{+subset.value.toFixed(2)}}</span>
                                         	</div>
                                         </li>
                                     </ul>
                                 </li>
+                            </ul>
+                            <!-- Subtopics -->
+                            <ul class="scorecard-grid-subtopics" ng-model="topic.topics" ng-switch="topic.topic">
+	                            <li class="scorecard-grid-subtopic" ng-repeat="subtopic in topic.topics">
+		                            <ul>
+		                                <li class="scorecard-grid-subtopic-supersubset" ng-repeat="superSubset in subtopic.superSubsets"><!-- Super Subset -->
+		                                    <ul>
+		                                        <li class="scorecard-grid-subtopic-subset" ng-repeat="subset in superSubset.subsets"><!-- Subset -->
+		                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">
+		                                            	<span class="scorecard-grid-value">{{+subset.value.toFixed(2)}}</span>
+		                                        	</div>
+		                                        </li>
+		                                    </ul>
+		                                </li>
+		                            </ul>
+	                            </li>
                             </ul>
                         </li>
                     </ul>

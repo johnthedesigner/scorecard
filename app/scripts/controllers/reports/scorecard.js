@@ -10,7 +10,7 @@
 angular.module('scorecardApp')
   .controller('ReportsScorecardCtrl', ['$scope', '$http',
   function ($scope, $http) {
-    $http.get('data/scoreboard_sample.json').success(function(data) {
+    $http.get('data/scorecard.json').success(function(data) {
         // Return Table Data
         $scope.table = data;
         // Return Number of Subsets
@@ -34,5 +34,10 @@ angular.module('scorecardApp')
             }
             return supersubsets;
         })();
+        $scope.decimal_rounding = (function(value,places){
+	        if ( !places ) places = 2;
+	        var round_decimal = parseFloat(value).toFixed(places);
+	        return round_decimal;
+        });
     });
 }]);
