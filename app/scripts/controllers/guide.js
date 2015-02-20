@@ -8,10 +8,6 @@
  * Controller of the scorecardApp
  */
 angular.module('scorecardApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('GuideCtrl', function ($scope) {
+    $scope.guideObject = [];
   });

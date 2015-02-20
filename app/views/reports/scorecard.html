@@ -15,6 +15,25 @@
                         <li ng-repeat="subset in superSubset.subsets">
                             <span class="cell-body">
                                 <p class="cell-text">{{subset.title}}</p>
+                                <!-- Tool Tip -->
+                                <span class="scorecard-grid-tool-tip" id="scorecard-grid-tool-tip-{{$index}}">
+                            		<p><span>{{superSubset.title}} :</span><br>
+	                            		{{subset.title}}</p>
+                                	<ul>
+	                                	<li>
+	                                		<p>Past 3 Months</p>
+	                                		<div ng-controller="sparkLineCtrl">
+		                                		<canvas width="100" height="80" class="chart chart-line" data="data" labels="labels" legend="false" options="{scaleShowGridLines : false, showScale: true, scaleShowLabels: false, scaleFontSize: 9, showTooltips: false, pointDot: false, animation: false}"></canvas>
+	                                		</div>
+	                                	</li>
+	                                	<li>
+	                                		<p>{{(subset.doc_percentage.toFixed(2)*100).toFixed(0)}}% Share of Voice</p>
+	                                		<div ng-controller="boozBallCtrl">
+		                                		<canvas width="100" height="80" class="chart chart-pie" data="data" labels="labels" options="{showToolTips: false, animation: false}"></canvas>
+	                                		</div>
+	                                	</li>
+                                	</ul>
+                                </span>
                             </span>
                         </li>
                     </ul>
@@ -32,11 +51,33 @@
                         <li class="scorecard-grid-sidebar-topic" ng-repeat="topic in superTopic.topics">
                             <span class="cell-body">
                                 <p class="cell-text">{{topic.title}}</p>
+                                <!-- Tool Tip -->
+                                <span class="scorecard-grid-tool-tip" id="scorecard-grid-tool-tip-{{$index}}">
+                                	<ul>
+	                                	<li>
+	                                		<p>Terms for {{topic.title}}</p>
+	                                		<div>
+		                                		<span>{{topic.terms}}</span>
+	                                		</div>
+	                                	</li>
+                                	</ul>
+                                </span>
                             </span>
                             <ul class="clearfix">
 	                            <li class="scorecard-grid-sidebar-subtopic" ng-repeat="subtopic in topic.topics">
 		                            <span class="cell-body">
 		                                <p class="cell-text">{{subtopic.title}}</p>
+		                                <!-- Tool Tip -->
+		                                <span class="scorecard-grid-tool-tip" id="scorecard-grid-tool-tip-{{$index}}">
+		                                	<ul>
+			                                	<li>
+			                                		<p>Terms for {{subtopic.title}}</p>
+			                                		<div>
+				                                		<span>{{subtopic.terms}}</span>
+			                                		</div>
+			                                	</li>
+		                                	</ul>
+		                                </span>
 		                            </span>
 	                            </li>
                             </ul>
@@ -47,7 +88,7 @@
             
         </section>
         
-        <section id="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
+        <section class="scorecard-scores-{{showScores}}" id="scorecard-grid-body" style="width:{{subsets*100+superSubsets}}px;"><!-- Table Body -->
             
             <ul>
                 <li class="scorecard-grid-supertopic" ng-repeat="superTopic in table.superTopics"><!-- Super Topic -->
@@ -94,5 +135,10 @@
     <span class="scroll-shadow" id="scroll-shadow-right"></span>
     <span class="scroll-shadow" id="scroll-shadow-bottom"></span>
     <span class="scroll-shadow" id="scroll-shadow-left"></span>
-
+	
+	<!-- Checkbox to toggle scores on and off -->
+	<div id="scorecard-grid-toggle">
+		Toggle Scores <input type="checkbox" id="scorecard-grid-toggle-checkbox" ng-model="showScores">
+	</div>
+	
 </div>

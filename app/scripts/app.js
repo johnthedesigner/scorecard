@@ -15,21 +15,36 @@ angular
         'ngResource',
         'ngRoute',
         'ngSanitize',
-        'ngTouch'
+        'ngTouch',
+        'chart.js'
     ])
     .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
-            templateUrl: 'views/main.html',
-            controller: 'MainCtrl'
+            templateUrl: 'views/guide.html',
+            controller: 'GuideCtrl'
         })
-        .when('/about', {
-            templateUrl: 'views/about.html',
-            controller: 'AboutCtrl'
-        })
-        .when('/reports/scorecard', {
+        .when('/reports/legoscorecard', {
             templateUrl: 'views/reports/scorecard.html',
-            controller: 'ReportsScorecardCtrl'
+            controller: 'ReportsScorecardCtrl',
+            resolve: {
+	            jsonFile: function(){
+		            return {
+			            jsonFileUrl: 'data/lego_scorecard.json'
+			        };
+		        }
+	        }
+        })
+        .when('/reports/mattelscorecard', {
+            templateUrl: 'views/reports/scorecard.html',
+            controller: 'ReportsScorecardCtrl',
+            resolve: {
+	            jsonFile: function(){
+		            return {
+			            jsonFileUrl: 'data/mattel_scorecard.json'
+			        };
+		        }
+	        }
         })
         .when('/reports/summary', {
           templateUrl: 'views/reports/summary.html',
@@ -38,61 +53,4 @@ angular
         .otherwise({
             redirectTo: '/'
         });
-    })
-    .directive('scrollPaneHeaders', [ function() {
-
-        function link(scope, element) {
-            var paneScrollTop,
-                paneScrollLeft,
-                paneVisibleHeight,
-                paneVisibleWidth,
-                paneFullHeight,
-                paneFullWidth,
-                paneScrollBottom,
-                paneScrollRight;
-
-            function initScrollPanes(){
-                // Get scroll Position
-                paneScrollTop = element[0].scrollTop;
-                paneScrollLeft = element[0].scrollLeft;
-                paneVisibleHeight = element[0].clientHeight;
-                paneVisibleWidth = element[0].clientWidth;
-                paneFullHeight = element[0].scrollHeight;
-                paneFullWidth = element[0].scrollWidth;
-                paneScrollBottom = paneFullHeight-paneVisibleHeight-paneScrollTop;
-                paneScrollRight = paneFullWidth-paneVisibleWidth-paneScrollLeft;
-                
-                // Keep header and sidebar in position
-                document.getElementById('scorecard-grid-header').style.top = paneScrollTop+'px';
-                document.getElementById('table-title').style.left = paneScrollLeft+'px';
-                document.getElementById('scorecard-grid-sidebar').style.left = paneScrollLeft+'px';
-                
-                // Turn on shadows to imply scrollable content, turn off when end of scroll is reached
-                if(paneScrollTop === 0){
-                    document.getElementById('scroll-shadow-top').style.opacity = 0;
-                } else {
-                    document.getElementById('scroll-shadow-top').style.opacity = 1;
-                }
-                if(paneScrollLeft === 0){
-                    document.getElementById('scroll-shadow-left').style.opacity = 0;
-                } else {
-                    document.getElementById('scroll-shadow-left').style.opacity = 1;
-                }
-                if(paneScrollBottom === 0){
-                    document.getElementById('scroll-shadow-bottom').style.opacity = 0;
-                } else {
-                    document.getElementById('scroll-shadow-bottom').style.opacity = 1;
-                }
-                if(paneScrollRight === 0){
-                    document.getElementById('scroll-shadow-right').style.opacity = 0;
-                } else {
-                    document.getElementById('scroll-shadow-right').style.opacity = 1;
-                }
-            }
-            element[0].addEventListener('scroll', initScrollPanes);
-        }
-        return {
-            restrict: 'A',
-            link: link
-        };
-    }]);
+    });
