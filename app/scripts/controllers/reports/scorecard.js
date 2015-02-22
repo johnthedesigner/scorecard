@@ -44,7 +44,7 @@ angular.module('scorecardApp')
 	        
 	        // Sparklines
 	        // How many months back should this data look?
-	        var history = 5;
+	        var history = 6;
 	        
 	        // Process chart data
 	        // Format months
@@ -83,6 +83,8 @@ angular.module('scorecardApp')
 	    $scope.labels = chartData.labels;
 	    $scope.data = [];
 	    $scope.data[0] = chartData.data;
+	    
+	    Chart.defaults.global.colours[0].strokeColor = 'rgb(0, 191, 255)';
 	}])
 	.controller('boozBallCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
 		var shareOfVoice = $scope.$parent.subset.doc_percentage.toFixed(4) * 100;

@@ -25,11 +25,14 @@
     <div class="header" id="page-header">
 	    <img src="images/logo.jpg" width="30" height="30" id="header-logo">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">Guide</a></li>
-            <li><a ng-href="#/reports/legoscorecard">Lego Scorecard</a></li>
-            <li><a ng-href="#/reports/mattelscorecard">Mattel Scorecard</a></li>
+            <li><a ng-href="#/reports/highlights">Highlights</a></li>
             <li><a ng-href="#/reports/summary">Summary</a></li>
+            <li><a ng-href="#/reports/legoscorecard">LEGO Scorecard</a></li>
+            <li><a ng-href="#/reports/mattelscorecard">Mega Bloks Scorecard</a></li>
+            |
+            <li><a ng-href="#/guide">Guide</a></li>
         </ul>
+        <div id="lumi-branding">Powered by <img src="images/lumi-logo.png" alt="Powered by Luminoso" height="30"></div>
     </div>
 
     <div class="container"><!-- Main Body Container -->
@@ -70,6 +73,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/guide.js"></script>
+        <script src="scripts/controllers/reports/highlights.js"></script>
         <script src="scripts/controllers/reports/scorecard.js"></script>
         <script src="scripts/controllers/reports/summary.js"></script>
         <!-- endbuild -->

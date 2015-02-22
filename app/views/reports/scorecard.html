@@ -9,10 +9,10 @@
             </div>
 
             <ul style="width:{{subsets*100+superSubsets}}px;"><!-- Super Subset Labels -->
-                <li ng-repeat="superSubset in table.superSubsets">
+                <li class="scorecard-grid-header-supersubset scorecard-grid-header-supersubset-{{superSubset.subsets.length}}" ng-repeat="superSubset in table.superSubsets">
                     <span class="cell-body">{{superSubset.title}}</span>
                     <ul><!-- Subsets Labels -->
-                        <li ng-repeat="subset in superSubset.subsets">
+                        <li class="scorecard-grid-header-subset" ng-repeat="subset in superSubset.subsets">
                             <span class="cell-body">
                                 <p class="cell-text">{{subset.title}}</p>
                                 <!-- Tool Tip -->
@@ -21,15 +21,15 @@
 	                            		{{subset.title}}</p>
                                 	<ul>
 	                                	<li>
-	                                		<p>Past 3 Months</p>
+	                                		<p>Volume Over 6 Mos.</p>
 	                                		<div ng-controller="sparkLineCtrl">
-		                                		<canvas width="100" height="80" class="chart chart-line" data="data" labels="labels" legend="false" options="{scaleShowGridLines : false, showScale: true, scaleShowLabels: false, scaleFontSize: 9, showTooltips: false, pointDot: false, animation: false}"></canvas>
+		                                		<canvas width="120" height="80" class="chart chart-line" data="data" labels="labels" legend="false" options="{scaleShowGridLines : false, showScale: true, scaleShowLabels: true, scaleFontSize: 9, showTooltips: false, pointDot: false, animation: false}"></canvas>
 	                                		</div>
 	                                	</li>
 	                                	<li>
 	                                		<p>{{(subset.doc_percentage.toFixed(2)*100).toFixed(0)}}% Share of Voice</p>
 	                                		<div ng-controller="boozBallCtrl">
-		                                		<canvas width="100" height="80" class="chart chart-pie" data="data" labels="labels" options="{showToolTips: false, animation: false}"></canvas>
+		                                		<canvas width="120" height="80" class="chart chart-pie" data="data" labels="labels" options="{showToolTips: false, animation: false}"></canvas>
 	                                		</div>
 	                                	</li>
                                 	</ul>

@@ -34,11 +34,24 @@ html,body{
 }
 #page-header ul li a{
 	text-decoration:none;
-	color:#000;
+	color:#222;
 	margin:0 5px;
 }
 #page-header ul li a:hover{
 	text-decoration:underline;
+}
+#lumi-branding{
+	position:absolute;
+	top:10px;
+	right:10px;	
+	font-size:.75em;
+    line-height:35px;
+	color:#999;
+	img{
+		display:inline;
+		vertical-align:middle;
+		margin-left:5px;
+	}
 }
 /* SCORECARD TABLE */
 #scorecard-grid-wrapper{
@@ -115,10 +128,23 @@ html,body{
 #scorecard-grid-header #table-title span{
     background:none;
     width:$sidebarWidth;
-    margin-top:10px;
-    font-size:1.25em;
+    margin-top:14px;
+    font-size:1em;
     text-align:center;
 }
+#scorecard-grid-header .scorecard-grid-header-supersubset{
+	white-space:nowrap;
+	/*overflow:hidden;*/
+}
+#scorecard-grid-header .scorecard-grid-header-supersubset > .cell-body{
+	white-space:nowrap;
+	overflow:hidden;
+}
+#scorecard-grid-header .scorecard-grid-header-supersubset-1{ width: 100px; }
+#scorecard-grid-header .scorecard-grid-header-supersubset-2{ width: 200px; }
+#scorecard-grid-header .scorecard-grid-header-supersubset-3{ width: 300px; }
+#scorecard-grid-header .scorecard-grid-header-supersubset-4{ width: 400px; }
+#scorecard-grid-header .scorecard-grid-header-supersubset-5{ width: 500px; }
 #scorecard-grid-header .cell-body{
     display:block;
 }
@@ -264,6 +290,9 @@ html,body{
 	    width:$cellWidth;
 	    height:$cellHeight;
 	}
+	.scorecard-grid-value{
+		font-size:.75em;
+	}
 }
 // Heat Values
 .heat-0{
@@ -389,12 +418,11 @@ html,body{
 /* TOOL TIPS */
 /* Sidebar Tool Tips */
 #scorecard-grid-header > ul > li .scorecard-grid-tool-tip{
-	width:220px;
+	width:260px;
 }
 #scorecard-grid-header .scorecard-grid-tool-tip{
 	display:block;
 	visibility:hidden;
-	opacity:0;
 	position:absolute;
 	top:31px;
 	right:0;
@@ -429,9 +457,8 @@ html,body{
 		}
 	}
 }
-#scorecard-grid-header .cell-body:hover .scorecard-grid-tool-tip,#scorecard-grid-header #scorecard-grid-tool-tip-0X{
+#scorecard-grid-header .cell-body:hover .scorecard-grid-tool-tip{
 	visibility:visible;
-	opacity:1;
 }
 /* Sidebar Tool Tips */
 #scorecard-grid-sidebar > ul > li .scorecard-grid-tool-tip{
@@ -616,4 +643,11 @@ html,body{
 	width:80%;
 	max-width:600px;
 	margin:50px auto;
+}
+.highlights-li{
+	margin:10px 0;
+}
+.highlights-li:nth-child(1){
+	list-style:none;
+	font-size:2em;
 }

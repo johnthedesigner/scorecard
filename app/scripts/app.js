@@ -20,9 +20,17 @@ angular
     ])
     .config(function ($routeProvider) {
         $routeProvider
-        .when('/', {
-            templateUrl: 'views/guide.html',
-            controller: 'GuideCtrl'
+        .when('/', {redirectTo: '/reports/highlights'})
+        .when('/reports/highlights', {
+            templateUrl: 'views/reports/highlights.html',
+            controller: 'ReportsHighlightsCtrl',
+            resolve: {
+	            txtFile: function(){
+		            return {
+			            txtFileUrl: 'data/highlights.txt'
+			        };
+		        }
+	        }
         })
         .when('/reports/legoscorecard', {
             templateUrl: 'views/reports/scorecard.html',
@@ -49,6 +57,10 @@ angular
         .when('/reports/summary', {
           templateUrl: 'views/reports/summary.html',
           controller: 'ReportsSummaryCtrl'
+        })
+        .when('/guide', {
+            templateUrl: 'views/guide.html',
+            controller: 'GuideCtrl'
         })
         .otherwise({
             redirectTo: '/'
