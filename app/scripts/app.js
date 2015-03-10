@@ -43,21 +43,43 @@ angular
 		        }
 	        }
         })
-        .when('/reports/mattelscorecard', {
+        .when('/reports/megabloksscorecard', {
             templateUrl: 'views/reports/scorecard.html',
             controller: 'ReportsScorecardCtrl',
             resolve: {
 	            jsonFile: function(){
 		            return {
-			            jsonFileUrl: 'data/mattel_scorecard.json'
+			            jsonFileUrl: 'data/megabloks_scorecard.json'
 			        };
 		        }
 	        }
         })
-        .when('/reports/summary', {
-          templateUrl: 'views/reports/summary.html',
-          controller: 'ReportsSummaryCtrl'
+        .when('/reports/legosummary', {
+            templateUrl: 'views/reports/summary.html',
+            controller: 'ReportsSummaryCtrl',
+            resolve: {
+	            jsonFile: function(){
+		            return {
+			            jsonFileUrl: 'data/lego_summary.json'
+			        };
+		        }
+	        }
         })
+        .when('/reports/megablokssummary', {
+            templateUrl: 'views/reports/summary.html',
+            controller: 'ReportsSummaryCtrl',
+            resolve: {
+	            jsonFile: function(){
+		            return {
+			            jsonFileUrl: 'data/megabloks_summary.json'
+			        };
+		        }
+	        }
+        })
+//        .when('/reports/summary', {
+//          templateUrl: 'views/reports/summary.html',
+//          controller: 'ReportsSummaryCtrl'
+//        })
         .when('/guide', {
             templateUrl: 'views/guide.html',
             controller: 'GuideCtrl'

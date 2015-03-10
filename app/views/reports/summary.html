@@ -3,7 +3,7 @@
     <div id="summary-table-wrapper"><!-- Table -->
         
         <header id="summary-table-header"><!-- Table Header -->
-        	<p>Customer Segment: <select ng-model="current_segment" ng-options="customer_segment.title for customer_segment in table['Consumer Segment']"></select></p>
+        	<p>{{table.title}}: <select ng-model="current_segment" ng-options="customer_segment.title for customer_segment in table['Consumer Segment']"></select></p>
         </header>
         
         <table id="summary-table">
