@@ -98,7 +98,7 @@
                                 <li class="scorecard-grid-supersubset" ng-repeat="superSubset in topic.superSubsets"><!-- Super Subset -->
                                     <ul>
                                         <li class="scorecard-grid-subset" ng-repeat="subset in superSubset.subsets"><!-- Subset -->
-                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">
+                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend[0]}}">
                                             	<span class="scorecard-grid-value">{{+subset.value.toFixed(2)}}</span>
                                         	</div>
                                         </li>
@@ -112,7 +112,7 @@
 		                                <li class="scorecard-grid-subtopic-supersubset" ng-repeat="superSubset in subtopic.superSubsets"><!-- Super Subset -->
 		                                    <ul>
 		                                        <li class="scorecard-grid-subtopic-subset" ng-repeat="subset in superSubset.subsets"><!-- Subset -->
-		                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend}}">
+		                                            <div class="cell-body heat-{{subset.heat}} trend-{{subset.trend[0]}}">
 		                                            	<span class="scorecard-grid-value">{{+subset.value.toFixed(2)}}</span>
 		                                        	</div>
 		                                        </li>

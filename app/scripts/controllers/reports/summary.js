@@ -20,7 +20,7 @@ angular.module('scorecardApp')
 		        var rows = [], keys = [];
 		        // Loop through rows to get ranks
 		        for ( var x = 0; x < segment.row_data.length; x++ ){
-			        keys[x] = segment.row_data[x].rank;
+			        keys[x] = segment.row_data[x].index;
 		        }
 		        // Sort the ranks
 		        keys.sort(function(a, b){return a-b});

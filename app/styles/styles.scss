@@ -341,26 +341,28 @@ html,body{
 }
 // Trends
 // Up
-.trend-1:after{
-    content:"";
+.trend-up:after{
+	font-family:FontAwesome;
+    content:"\f062";
     display:block;
     position:absolute;
     top:5px;
     right:5px;
     height:20px;
     width:20px;
-    background:#090;
+    color:#3A3;
 }
 // Down
-.trend-2:after{
-    content:"";
+.trend-down:after{
+	font-family:FontAwesome;
+    content:"\f063";
     display:block;
     position:absolute;
     top:5px;
     right:5px;
     height:20px;
     width:20px;
-    background:#900;
+    color:#D44;
 }
 
 // Scroll Shadows
@@ -589,11 +591,17 @@ html,body{
 	width:10%;
 }
 #summary-table .summary-table-col-4{
-	width:30%;
-	vertical-align:top;
+	width:10%;
 }
 #summary-table .summary-table-col-5{
-	width:30%;
+	width:10%;
+}
+#summary-table .summary-table-col-6{
+	width:20%;
+	vertical-align:top;
+}
+#summary-table .summary-table-col-7{
+	width:20%;
 	vertical-align:top;
 }
 #summary-table tbody tr{
