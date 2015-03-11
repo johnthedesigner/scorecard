@@ -28,6 +28,7 @@ html,body{
 	    line-height:35px;
 	    margin:10px;
 	    padding:0;
+	    font-size:.9em;
 	}
 	ul li{
 	    display:inline;
@@ -589,9 +590,11 @@ html,body{
 }
 #summary-table .summary-table-col-4{
 	width:30%;
+	vertical-align:top;
 }
 #summary-table .summary-table-col-5{
 	width:30%;
+	vertical-align:top;
 }
 #summary-table tbody tr{
 	border-top:#DDD solid 1px;
