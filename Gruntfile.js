@@ -223,8 +223,7 @@ module.exports = function (grunt) {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
           '<%= yeoman.dist %>/styles/{,*/}*.css',
-          '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          '<%= yeoman.dist %>/styles/fonts/*'
+          '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
     },
@@ -349,35 +348,49 @@ module.exports = function (grunt) {
 
     // Copies remaining files to places other tasks can use
     copy: {
-      dist: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>',
-          dest: '<%= yeoman.dist %>',
-          src: [
-            '*.{ico,png,txt}',
-            '.htaccess',
-            '*.html',
-            'views/{,*/}*.html',
-            'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*',
-            'data/{,*/}*.json',
-            'data/{,*/}*.txt'
-          ]
-        }, {
-          expand: true,
-          cwd: '.tmp/images',
-          dest: '<%= yeoman.dist %>/images',
-          src: ['generated/*']
-        }]
-      },
-      styles: {
-        expand: true,
-        cwd: '<%= yeoman.app %>/styles',
-        dest: '.tmp/styles/',
-        src: '{,*/}*.css'
-      }
+		dist: {
+			files: [{
+				expand: true,
+				dot: true,
+				cwd: '<%= yeoman.app %>',
+				dest: '<%= yeoman.dist %>',
+				src: [
+				    '*.{ico,png,txt}',
+				    '.htaccess',
+				    '*.html',
+				    'views/{,*/}*.html',
+				    'images/{,*/}*.{webp}',
+				    'styles/fonts/{,*/}*.*',
+				    'data/{,*/}*.json',
+				    'data/{,*/}*.txt'
+				]
+			}, {
+				expand: true,
+				cwd: '.tmp/images',
+				dest: '<%= yeoman.dist %>/images',
+				src: ['generated/*']
+			}, {
+				expand: true,
+				dot: true,
+				cwd: './bower_components/fontawesome',
+				src: ['fonts/*.*'],
+				dest: '<%= yeoman.dist %>/styles'
+			}]
+		},
+		styles: {
+			files: [{
+		        expand: true,
+		        cwd: '<%= yeoman.app %>/styles',
+		        dest: '.tmp/styles/',
+		        src: '{,*/}*.css'
+			}, {
+				expand: true,
+				dot: true,
+				cwd: './bower_components/fontawesome',
+				src: ['fonts/*.*'],
+				dest: '.tmp/styles/'
+			}]
+		}
     },
 
     // Run some tasks in parallel to speed up the build process
@@ -411,12 +424,13 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      'clean:server',
-      'wiredep',
-      'concurrent:server',
-      'autoprefixer',
-      'connect:livereload',
-      'watch'
+		'clean:server',
+		'wiredep',
+		'concurrent:server',
+		'copy:styles',
+		'autoprefixer',
+		'connect:livereload',
+		'watch'
     ]);
   });
 
